@@ -1,6 +1,6 @@
 export default {
   auth: {
-    email: 'admin@flatlogic.com',
+    email: 'dedaldino@jorcloud.com',
     password: 'password'
   }
 };

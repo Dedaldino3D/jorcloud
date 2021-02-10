@@ -36,7 +36,7 @@ import sender1 from "../../images/1.png";
 import sender2 from "../../images/2.png";
 import sender3 from "../../images/3.png";
 
-import avatar from "../../images/people/a5.jpg";
+import avatar from "../../images/people/3d.jpg";
 
 import s from "./Header.module.scss";
 import "animate.css";
@@ -134,7 +134,7 @@ class Header extends React.Component {
         <UncontrolledAlert
           className={`${s.alert} mr-3 d-lg-down-none animate__animated animate__bounceIn animate__delay-1s`}
         >
-          <i className="fa fa-info-circle mr-1" /> Check out Light Blue{" "}
+          <i className="fa fa-info-circle mr-1" /> Check out Jor Cloud{" "}
           <button
             className="btn-link"
             onClick={() => this.setState({ settingsOpen: true })}
@@ -198,7 +198,9 @@ class Header extends React.Component {
               >
                 <img src={avatar} alt="..." />
               </span>
-              <span className={`small ${s.accountCheck}`}>Philip smith</span>
+              <span className={`small ${s.accountCheck}`}>
+                Dedaldino Antonio
+              </span>
               <Badge className={s.badge} color="primary">
                 13
               </Badge>
@@ -233,7 +235,9 @@ class Header extends React.Component {
                 <img className={s.image} src={sender1} alt="" />
                 <div className={s.details}>
                   <div>Jane Hew</div>
-                  <div className={s.text}>Hey, John! How is it going? ...</div>
+                  <div className={s.text}>
+                    Hey, Dedaldino! How is it going? ...
+                  </div>
                 </div>
               </DropdownItem>
               <DropdownItem>
@@ -241,7 +245,7 @@ class Header extends React.Component {
                 <div className={s.details}>
                   <div>Alies Rumiancaŭ</div>
                   <div className={s.text}>
-                    I will definitely buy this template
+                    I will definitely get a premium account on jor cloud
                   </div>
                 </div>
               </DropdownItem>

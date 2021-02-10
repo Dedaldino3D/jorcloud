@@ -244,7 +244,7 @@ small {
 }
 
 .dropdown-toggle::after {
-  font-family: Line Awesome Free, sans-serif;
+  font-family: "Inter", Line Awesome Free, sans-serif;
   content: "\F107";
   border: none;
   width: auto;
@@ -876,7 +876,7 @@ div.abc-radio label {
 ///// Toastify /////
 .Toastify {
   .Toastify__toast {
-    font-family: Montserrat, sans-serif;
+    font-family: "Inter", Montserrat, sans-serif;
     border-radius: $border-radius;
     &.Toastify__toast--success {
       background: $success;
@@ -955,4 +955,3 @@ pre code {
 .list-group-item.bg-warning-light:hover {
   color: $gray-700;
 }
-
